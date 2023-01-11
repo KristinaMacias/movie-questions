@@ -113,3 +113,6 @@ for(let i = 0; i < exampleArray.length; i++) {
 // Create a function that uses a for loop to iterate through the array of movies. If the movie includes the genre "comedy" and the age rating is "PG", console.log the movie's name.
 // See . notation and [] notation for accessing object properties.
 // hint: what method can we use to check if an array includes a value?
+
+// Create a function that finds the movie with the longest description. Console.log the movie's name and description
+// hint: what property can we use to check the length of a string?

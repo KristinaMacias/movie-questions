@@ -150,3 +150,23 @@ function comedyPG() {
 }
 
 //comedyPG(); // call the function
+
+// Create a function that finds the movie with the longest description. Console.log the movie's name and description
+// hint: you can use the .length property to find the length of a string
+function longestDescription() {
+    let longestMovie = movies[0]; // set the longestMovie variable to the first movie in the array, so that we have something to compare to
+    // set the longestMovie variable to the first movie in the array
+    for (let i = 0; i < movies.length; i++) {
+        console.log(movies[i].name, movies[i].description.length);
+        // for loop to iterate through the array of movies
+        if (movies[i].description.length > longestMovie.description.length) {
+        // if the length of the description of the current movie is greater than the length of the description of the longest movie
+        longestMovie = movies[i];
+        // set the longestMovie variable to the current movie
+        }
+    }
+    console.log(longestMovie.name + ": " + longestMovie.description);
+    // console.log the name of the longest movie and its description
+}
+
+longestDescription(); // call the function
