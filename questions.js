@@ -84,11 +84,17 @@ let movies = [
   },
 ];
 
-// With array of objects above, create a series of functions that will allow you to do the following:
+// With array of objects above, create a series of functions that will allow you to do the following questions below:
 // hint: we can access the properties of an object using dot notation or bracket notation
 // console.log(movies[0].name);
 // if using a for loop, you can use the index to access each object in the array
 
+// example loop to iterate through an array of objects
+exampleArray = [{firstName: 'Kristina', lastName: 'Macias'}, {firstName: 'Victoria', lastName: 'Ditmer'}];
+
+for(let i = 0; i < exampleArray.length; i++) {
+  console.log(exampleArray[i]); // could we use dot notation to access properties of the object?
+}
 
 
 // Create a function that uses a for loop to iterate through the array of movies and console.log each movie's name.
